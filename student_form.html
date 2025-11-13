@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Registration Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Student Registration Form</h1>
+  </header>
+
+  <div class="container">
+    <form>
+      <label>Full Name:</label><br>
+      <input type="text" name="name" placeholder="Enter your name" required><br><br>
+
+      <label>Email:</label><br>
+      <input type="email" name="email" placeholder="Enter your email" required><br><br>
+
+      <label>Phone Number:</label><br>
+      <input type="tel" name="phone" placeholder="Enter your phone number" required><br><br>
+
+      <label>Department:</label><br>
+      <select name="department">
+        <option>CSE</option>
+        <option>ECE</option>
+        <option>ME</option>
+        <option>CE</option>
+      </select><br><br>
+
+      <label>Semester:</label><br>
+      <input type="number" name="semester" min="1" max="8" required><br><br>
+
+      <label>Gender:</label><br>
+      <input type="radio" name="gender" value="Male"> Male
+      <input type="radio" name="gender" value="Female"> Female<br><br>
+
+      <label>Upload Photo:</label><br>
+      <input type="file" name="photo" accept="image/*"><br><br>
+
+      <input type="submit" value="Submit" style="background-color:#006400;color:white;padding:10px 20px;border:none;border-radius:6px;cursor:pointer;">
+    </form>
+  </div>
+
+  <footer>
+    <p>Back to <a href="index.html">Home</a></p>
+  </footer>
+</body>
+</html>

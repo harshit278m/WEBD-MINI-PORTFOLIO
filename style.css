@@ -1,0 +1,96 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background-color: #f0fff0;
+  color: #222;
+}
+
+header {
+  background-color: #006400;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+nav {
+  background-color: #228B22;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: 30px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+  color: #006400;
+  border-bottom: 2px solid #006400;
+  padding-bottom: 5px;
+}
+
+.skills-list, .projects-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.skills-list span {
+  background-color: #90EE90;
+  padding: 8px 12px;
+  border-radius: 20px;
+  font-weight: 500;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #006400;
+  color: white;
+  margin-top: 40px;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+.profile-pic {
+  width: 150px;          
+  height: 150px;         
+  border-radius: 50%;    
+  object-fit: cover;     
+  display: block;
+  margin: 20px auto;     
+  border: 3px solid #228B22; 
+}
+.banner {
+  background: url('dtu.jpg') center/contain no-repeat;
+  background-color: #eafbea; 
+}
+
+.learning-img {
+  width: 40%;
+  max-width: 300px;
+  display: block;
+  margin: 15px auto;
+  border-radius: 12px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+}
+
